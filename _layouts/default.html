@@ -1,8 +1,3 @@
----
-layout: default
-title: Heads Up!
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +7,8 @@ title: Heads Up!
     <title>{{ page.title }}</title>
 </head>
 <body>
-    <h1>{{ "Here we go again." | downcase }}</h1>
+    <!--content is a special variable that returns the rendered content 
+        of the page on which it’s called.-->
+    {{ content }}
 </body>
 </html>
