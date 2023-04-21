@@ -1,0 +1,29 @@
+collections:
+  authors:
+  # By default, collections do not output a page for documents.
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values: 
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values: 
+      layout: "post"
+  - scope:
+      path: ""
+    values: 
+      layout: "default"
+
+plugins:
+  # - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  # - jekyll-remote-theme
+
+theme: minima
+#remote_theme: pages-themes/minimal@v0.2.0

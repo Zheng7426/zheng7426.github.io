@@ -1,29 +1,14 @@
-collections:
-  authors:
-  # By default, collections do not output a page for documents.
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values: 
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values: 
-      layout: "post"
-  - scope:
-      path: ""
-    values: 
-      layout: "default"
+theme: minima
 
 plugins:
-  # - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  # - jekyll-remote-theme
 
-theme: minima
-#remote_theme: pages-themes/minimal@v0.2.0
+title: test
+author: Hz
+description: >- 
+  关于编程技术的一些浅见。
+#baseurl: ""
+#url: "https://Zheng7426.github.io"
+github_username: Zheng7426
+title-logo: /assets/images/title-logo.png
