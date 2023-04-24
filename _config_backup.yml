@@ -1,6 +1,8 @@
 collections:
-  authors:
+  # authors:
   # By default, collections do not output a page for documents.
+  # output: true
+  categories:
     output: true
 
 defaults:

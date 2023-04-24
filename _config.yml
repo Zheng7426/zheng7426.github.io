@@ -7,8 +7,35 @@ plugins:
 title: test
 author: Hz
 description: >- 
-  关于编程技术的一些浅见。
+  关于编程技术、文字的一些浅见。
 #baseurl: ""
 #url: "https://Zheng7426.github.io"
 github_username: Zheng7426
-title-logo: /assets/images/title-logo.png
+# title-logo: /assets/images/title-logo.png
+
+collections:
+  categories:
+    output: true
+  # authors:
+  #   output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values: 
+      layout: "post"
+  # - scope:
+  #     path: ""
+  #     type: "authors"
+  #   values:
+  #     layout: "author"
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+  - scope:
+      path: ""
+    values: 
+      layout: "default"
