@@ -1,11 +1,15 @@
-theme: minima
+# theme: minima
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-title: test
-author: Hz
+title: 驰歇戏
+author: 
 description: >- 
   关于编程技术、文字的一些浅见。
 #baseurl: ""
@@ -38,4 +42,4 @@ defaults:
   - scope:
       path: ""
     values: 
-      layout: "default"
+      layout: "base"

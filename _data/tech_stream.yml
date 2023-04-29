@@ -1,0 +1,8 @@
+- stream: Front-end
+  framework: React
+  language: JavaScript
+- stream: Back-end
+  framework: Spring
+  language: Java
+- stream: DevOps
+  framwork: K8s, OpenShift, Docker
