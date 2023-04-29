@@ -2,14 +2,19 @@
 remote_theme: jekyll/minima
 
 minima:
-  skin: dark
+  skin: auto
+  social_links: 
+    - { platform: github,  user_url: "https://github.com/Zheng7426" }
+    # date_format: "%b %-d, %Y"
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
 title: 驰歇戏
-author: 
+author:
+  name: 驰歇戏
+  # email: ""
 description: >- 
   关于编程技术、文字的一些浅见。
 #baseurl: ""
