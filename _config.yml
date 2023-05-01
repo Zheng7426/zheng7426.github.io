@@ -10,6 +10,7 @@ minima:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 title: 驰歇戏
 author:
@@ -27,6 +28,10 @@ collections:
     output: true
   # authors:
   #   output: true
+
+# kramdown:
+#   syntax_highlighter_opts:
+#     disable : true
 
 defaults:
   - scope:
