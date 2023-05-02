@@ -7,16 +7,8 @@ permalink: /categories/
 This is where you could find articles for various categories:
 <ul>
     {% for category in site.categories %}
-    <li><a href="{{ category.url }}">{{ category.name }} - {{ category.stream }}</a></li>
+    <li><a href="{{ category.url }}">
+    {{ category.name }} 
+    {% if category.stream %}- {{ category.stream }}{% endif %}</a></li>
 {% endfor %}
 </ul>
-
-```sql
-select * from users;
-```
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
