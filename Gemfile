@@ -19,5 +19,7 @@ end
 
 gem "minima"
 
+gem "kramdown-parser-gfm"
+
 # gem "webrick"
 gem "webrick", "~> 1.8"

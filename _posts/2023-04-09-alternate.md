@@ -1,7 +1,7 @@
 ---
-category: Coding
-title: override
-author: V
+category: DevOps
+title: Kubectl
+author: Hz
 ---
 
 Alternate content.

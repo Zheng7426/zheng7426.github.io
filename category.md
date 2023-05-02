@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Category
 permalink: /categories/
 ---
@@ -7,7 +7,7 @@ permalink: /categories/
 This is where you could find articles for various categories:
 <ul>
     {% for category in site.categories %}
-    <li><a href="{{ category.url }}">{{ category.name }}</a></li>
+    <li><a href="{{ category.url }}">{{ category.name }} - {{ category.stream }}</a></li>
 {% endfor %}
 </ul>
 

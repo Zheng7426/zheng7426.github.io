@@ -1,23 +1,23 @@
-# theme: minima
-remote_theme: jekyll/minima
+theme: minima
+#remote_theme: jekyll/minima
 
 minima:
   skin: auto
-  social_links: 
-    - { platform: github,  user_url: "https://github.com/Zheng7426" }
+  # social_links: 
+  #   - { platform: github,  user_url: "https://github.com/Zheng7426" }
     # date_format: "%b %-d, %Y"
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
 
 title: 驰歇戏
-author:
-  name: 驰歇戏
+author: A Hobbit.
+  # name: A Hobbit.
   # email: ""
 description: >- 
-  关于编程技术、文字的一些浅见。
+  'I will take the Ring,' he said, 'though I do not know the way.'
 #baseurl: ""
 #url: "https://Zheng7426.github.io"
 github_username: Zheng7426
@@ -52,4 +52,4 @@ defaults:
   - scope:
       path: ""
     values: 
-      layout: "base"
+      layout: "default"

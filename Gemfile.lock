@@ -257,6 +257,7 @@ DEPENDENCIES
   jekyll
   jekyll-seo-tag
   jekyll-sitemap
+  kramdown-parser-gfm
   minima
   webrick (~> 1.8)
 
