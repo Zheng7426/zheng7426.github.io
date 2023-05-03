@@ -26,13 +26,13 @@ Jekyll 所需的环境如下：
 
 * GCC 以及 Make `gcc -v`, `g++ -v`, `make -v`
 
-计算机系统为 MacOS 的用户最好不要使用自带的 ruby，否则可能会遇到这样的问题:
+计算机系统为 MacOS 的用户最好不要使用系统自带的 ruby，否则可能会遇到这样的问题:
 
 * 执行个gem相关的命令时总是有权限问题需要用 sudo 输入密码 
 
 * 版本过于陈旧无法正常安装依赖
 
-按照 Jekyll [官网](https://jekyllrb.com/docs/installation/macos/)的说法，最好是去额外安装一个新的 Ruby 版本。
+按照 Jekyll [官网](https://jekyllrb.com/docs/installation/macos/)的说法，MacOS 用户最好去额外安装一个新的 Ruby 版本。
 
 
 ## 安装 Jekyll
