@@ -57,6 +57,12 @@ bundle exec jekyll build
 
 使用 bundle exec 是为了确保使用的 jekyll 版本是我们 Gemfile 中所指定的版本。
 
+本地启动：
+```bash
+bundle exec jekyll serve
+```
+本地访问地址: http://127.0.0.1:4000
+
 ## 使用模版
 
 ## Liquid
